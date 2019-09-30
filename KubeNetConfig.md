@@ -65,6 +65,7 @@ The following is to be performed on the **kmaster** image
     cni-conf.json: |
         {
           "name": "vxlan0",
+          "cniVersion": "0.2.0",
           "plugins": [
             {
               "type": "flannel",
