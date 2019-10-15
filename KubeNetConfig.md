@@ -200,7 +200,7 @@ The following is to be performed on the **kmaster** image
 - Load the the Firefox browser and go to the following URL:
 
     ```
-    http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/
+    http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
     ```
 
 - Select the **Token** option, and enter the Secret you just created
